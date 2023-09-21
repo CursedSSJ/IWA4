@@ -9,7 +9,7 @@ if (date == 2050) {
 
   console.log("January", "New Year’s Day"); // Closing bracket was missing
   console.log("March", "Human Rights Day");
-  let date = "April"; //Was missing a let
+  date = "April";
   console.log(date, "Family Day");
   console.log(date, "Freedom Day");
   count = count + 4;
