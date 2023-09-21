@@ -1,5 +1,5 @@
-let date = 2050;
-let status = "parent"; //changed status to parent
+const date = 2050;
+const status = "parent"; //changed status to parent
 let count = 0; //Changed it to let to allow for reassignment of variable
 
 // Colon was being used to assign a value to a variable instead of an equals sign
@@ -9,9 +9,9 @@ if (date == 2050) {
 
   console.log("January", "New Year’s Day"); // Closing bracket was missing
   console.log("March", "Human Rights Day");
-  date = "April";
-  console.log(date, "Family Day");
-  console.log(date, "Freedom Day");
+  let month = "April";
+  console.log(month, "Family Day");
+  console.log(month, "Freedom Day");
   count = count + 4;
 
   if (status == "student") {
@@ -21,16 +21,16 @@ if (date == 2050) {
 
   console.log("August", "Women’s Day");
   console.log("September", "Heritage Day");
-  date = "December";
-  console.log(date, "Day of Reconciliation");
+  month = "December";
+  console.log(month, "Day of Reconciliation");
   count = count + 3;
 
   if (status == "parent") {
-    console.log(date, "Christmas Day");
+    console.log(month, "Christmas Day");
     count = count + 1;
   }
 
-  console.log(date, "Day of Goodwill");
+  console.log(month, "Day of Goodwill");
   count = count + 1;
 }
 
